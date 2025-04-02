@@ -1,8 +1,0 @@
-<launch>
-    <node pkg="example_pkg" name="action_node" type="action_node.py" />
-    <node pkg="example_pkg" name="sensor_node" type="sensor_node.py" />
-    <test test-name="test_behaviour_constant" pkg="example_pkg" type="test_robot_behaviour.py"/>
-    <test test-name="test_behaviour_sinusoid" pkg="example_pkg" type="test_robot_behaviour.py">
-        <param name="test_type" value="sinusoid"/>
-    </test>
-</launch>
